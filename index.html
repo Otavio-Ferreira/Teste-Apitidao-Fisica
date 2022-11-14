@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ed fisica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Avaliação Física</h1>
+        <h2>Faça seu teste</h2>
+    </header>
+    <main>
+        <section id="cabeçalho" class="sect">
+            <div><label>Nome Completo: <input type="text" id="name"></label></div>
+            <div><label>Idade: <input type="number" id="idade"></label></div>
+            <div><label>Sexo: <input type="text" id="sexo"></label></div>
+        </section>
+        <section id="imccalc" class="sect">
+            <h2>Calcular IMC</h2>
+            <div><label>Estatura: <input type="number" id="estatura"></label></div>
+            <div><label>Peso: <input type="number" id="peso"></label></div>
+            
+        </section>
+        <section id="fccalc" class="sect">
+            <h2>Calcular FC</h2>
+            <div><label>Batimentos p/10s: <input type="number" id="numBat"></label></div>
+        </section>
+        <section id="rqccalc" class="sect">
+            <h2>Calcular RQC</h2>
+            <div><label>Cintura: <input type="number" id="cint"></label></div>
+            <div><label>Quadril: <input type="number" id="quad"></label></div>
+        </section>
+    </main>
+    <footer>
+        <button onclick="imc()"><a href="resposta.html">ver resultado</a></button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

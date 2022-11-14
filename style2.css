@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #26474C;
+    text-align: center;
+    min-width: 400px;
+}
+
+main{
+    padding: 20px;
+    width: 380px;
+    border: solid 1px black;
+    margin: auto;
+    margin-top: 15px;
+}
+
+section div {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+div label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: gray;
+    margin-top: 10px;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+span{
+    text-align: right;
+    font-weight: bold;
+    color: red;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 40px;
+}
+
+h3{
+    text-align: center;
+    background-color: green;
+    color: white;
+    margin-bottom: 5px;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+div{
+    border-bottom: solid 1px black;
+}
+
+button{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: #0F1C1E;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 400px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #26474C;
+}
+
+header{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #0F1C1E;
+    padding: 5px;
+}
+
+main{
+    margin: auto;
+    width: 300px;
+    background-color: #1C3438;
+    border-radius: 10px;
+}
+
+.sect{
+    background-color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    width: 230px;
+    height: 170px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#imccalc div {
+    margin: auto;
+    
+}
+
+#imccalc label, input{
+    margin: 12px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#imccalc h2{
+    text-align: center;
+    margin: 10px;
+}
+
+#cabeçalho{
+    height: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#fccalc{
+    margin-top: 10px;
+    height: 100px;
+}
+
+#fccalc h2{
+    text-align: center;
+    margin: 10px;
+}
+
+#fccalc label, input{
+    margin: 12px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#rqccalc{
+    margin-top: 10px;
+}
+
+#rqccalc h2{
+    text-align: center;
+    margin: 10px;
+}
+
+#rqccalc label, input{
+    margin: 12px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color: #0F1C1E;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

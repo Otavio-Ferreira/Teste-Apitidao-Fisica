@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>FICHA DE APITIDÃO</h1>
+    </header>
+    <main>
+        <Section>
+            <div>
+                 <h3>EEEP DR NAPOLEÃO NEVES DA LUZ</h3>
+            </div>
+            <img src="imagens/brasao.png" alt="">
+        </Section>
+        <h2>INFORMAÇÕES PESSOAIS</h2>
+        <section>
+            <div>Nome: <span id="n"></span></span></div>
+            <div>Idade: <span id="i"></span></div>
+            <div>Sexo: <span id="s"></span></div>
+        </section>
+        <h2>RESULTADOS</h2>
+        <section>
+                <div><label>Peso: </label> <span id="peso"></span> kg</div> 
+                <div><label>Estatura: </label> <span id="altura"></span> m</di>
+        </section>
+        <section>
+            <div><label>IMC (Índice de Massa Corporal): </label> <span id="imc"></span></div>
+        </section>
+        <section>
+                <div><label>FC (Frequência Cardíaca): </label> <span id="fc"></span> BPM</div>
+                <div><label>FCM (Frequência Cardíaca Máxima): </label> <span id="fcmax"></span> BPM</div>
+        </section>
+        <section>
+                <div><label>Circunferência da Cintura: </label> <span id="cint"></span> cm</div>
+                <div><label>Circunferência do Quadril: </label> <span id="quad"></span> cm</div> 
+                <div><label>RQC (Relação Cintura Quadril): </label> <span id="rq"></span></div> 
+        </section>
+        <h2>OBSERVAÇÕES</h2>
+        <section id="observações">
+                <div><label>Peso: <span  id="class"></span></label></div> 
+                <div><label>Valor FC: <span  id="cls"></span></label></div> 
+                <div><label>Risco a Saúde: <span  id="risc"></span></label></div> 
+        </section>
+    </main>
+    <footer>
+        <button id="receber" onclick="receba()">Ver Resultado</button>
+        <button onclick="window.print()">Baixar Resultado</button>
+        <button><a href="index.html">Voltar</a></button>
+    </footer>
+    <script src="script2.js"></script>
+</body>
+</html>
